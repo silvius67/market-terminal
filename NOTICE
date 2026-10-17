@@ -1,0 +1,19 @@
+Market Terminal
+A modified version of open-source software, Copyright (c) 2026 Lewis Jackson,
+used under the MIT licence (see LICENSE). This copy removes the original
+project's links, promotions and trading connector.
+
+This product includes TradingView Lightweight Charts(TM)
+(public/vendor/lightweight-charts.standalone.production.js),
+Copyright (c) 2026 TradingView, Inc., licensed under the Apache License 2.0
+(public/vendor/lightweight-charts.LICENSE). https://www.tradingview.com/
+The chart keeps TradingView's attribution logo, as that licence asks.
+
+Market Terminal is an independent project. It is not affiliated with, endorsed by,
+or connected to TradingView, Inc., any data provider or any commercial terminal
+vendor. "TradingView" is a trademark of TradingView, Inc.
+
+Market data comes from public endpoints of Binance, Coinbase, Kraken, Nasdaq,
+Yahoo Finance, the SEC, US Treasury, Federal Reserve, CFTC, BIS, FRED and public
+news feeds, each under its own terms. Use it for your own personal analysis.
+Nothing in this software is financial advice.

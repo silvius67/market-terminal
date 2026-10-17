@@ -1,0 +1,74 @@
+[
+ {
+  "symbol": "US:SKHY",
+  "name": "SK hynix Inc. American Depositary Shares",
+  "type": "stocks",
+  "exchange": "NASDAQ-GS"
+ },
+ {
+  "symbol": "US:SK",
+  "name": "Corgi SK hynix 2x Daily ETF",
+  "type": "etf",
+  "exchange": "BAT"
+ },
+ {
+  "symbol": "US:SKDD",
+  "name": "GraniteShares 2x Short SK Hynix Daily ETF",
+  "type": "etf",
+  "exchange": "NASDAQ-GM"
+ },
+ {
+  "symbol": "US:SKHA",
+  "name": "Tradr 2X Long SK hynix Daily ETF",
+  "type": "etf",
+  "exchange": "BAT"
+ },
+ {
+  "symbol": "US:SKHL",
+  "name": "Direxion Daily SK Hynix Bull 2X ETF",
+  "type": "etf",
+  "exchange": "PSE"
+ },
+ {
+  "symbol": "US:SKHN",
+  "name": "Tradr 2X Short SK hynix Daily ETF",
+  "type": "etf",
+  "exchange": "BAT"
+ },
+ {
+  "symbol": "US:SKHQ",
+  "name": "Leverage Shares 2X Short Sk Hynix Daily ETF",
+  "type": "etf",
+  "exchange": "BAT"
+ },
+ {
+  "symbol": "US:SKHU",
+  "name": "ProShares Ultra SK hynix",
+  "type": "etf",
+  "exchange": "PSE"
+ },
+ {
+  "symbol": "US:SKHX",
+  "name": "Leverage Shares 2X Long SK Hynix Daily ETF",
+  "type": "etf",
+  "exchange": "BAT"
+ },
+ {
+  "symbol": "US:SKHZ",
+  "name": "Leverage Shares 1X Short SK Hynix Daily ETF",
+  "type": "etf",
+  "exchange": "BAT"
+ },
+ {
+  "symbol": "YAHOO:000660.KS",
+  "name": "SK hynix",
+  "type": "equity",
+  "exchange": "Korea"
+ },
+ {
+  "symbol": "YAHOO:HY9H.F",
+  "name": "SK Hynix Inc.                 R",
+  "type": "equity",
+  "exchange": "Frankfurt"
+ }
+]

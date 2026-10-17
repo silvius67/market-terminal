@@ -1,0 +1,10 @@
+Account Number,Account Name,Symbol,Description,Quantity,Last Price,Last Price Change,Current Value,Today's Gain/Loss Dollar,Today's Gain/Loss Percent,Total Gain/Loss Dollar,Total Gain/Loss Percent,Percent Of Account,Cost Basis Total,Average Cost Basis,Type
+Z12345678,Individual,SPAXX**,HELD IN MONEY MARKET,,,,$1520.22,,,,,4.10%,,,Cash,
+Z12345678,Individual,MSFT,MICROSOFT CORP,25,$533.41,-$0.25,$13335.25,-$6.25,-0.05%,+$4085.25,+44.16%,35.90%,$9250.00,$370.00,Margin,
+Z12345678,Individual,KO,COCA-COLA CO,100,$93.16,+$1.38,$9316.00,+$138.00,+1.50%,+$3303.50,+54.94%,25.08%,$6012.50,$60.13,Cash,
+Z12345678,Individual,MSFT,MICROSOFT CORP,10,$533.41,-$0.25,$5334.10,-$2.50,-0.05%,+$1134.10,+27.00%,14.36%,$4200.00,$420.00,Cash,
+Z12345678,Individual,FXAIX,FIDELITY 500 INDEX FUND,40.123,$231.87,+$1.10,$9303.32,+$44.14,+0.48%,+$1303.32,+16.29%,25.04%,$8000.00,$199.39,Cash,
+Z12345678,Individual,Pending Activity,,,,,-$250.00,,,,,,,,,
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution."
+"Date downloaded 10/15/2026 9:45 AM ET"

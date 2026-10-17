@@ -1,0 +1,169 @@
+{
+ "quoteSummary": {
+  "result": [
+   {
+    "price": {
+     "maxAge": 1,
+     "preMarketChangePercent": {
+      "raw": 0.0012281095,
+      "fmt": "0.12%"
+     },
+     "preMarketChange": {
+      "raw": 0.42001343,
+      "fmt": "0.42"
+     },
+     "preMarketTime": 1792138180,
+     "preMarketPrice": {
+      "raw": 342.42,
+      "fmt": "342.42"
+     },
+     "preMarketSource": "FREE_REALTIME",
+     "postMarketChangePercent": {
+      "raw": -0.003883317,
+      "fmt": "-0.39%"
+     },
+     "postMarketChange": {
+      "raw": -1.3280945,
+      "fmt": "-1.33"
+     },
+     "postMarketTime": 1792108707,
+     "postMarketPrice": {
+      "raw": 340.6719,
+      "fmt": "340.67"
+     },
+     "postMarketSource": "FREE_REALTIME",
+     "regularMarketChangePercent": {
+      "raw": -0.0027991398,
+      "fmt": "-0.28%"
+     },
+     "regularMarketChange": {
+      "raw": -0.959991,
+      "fmt": "-0.96"
+     },
+     "regularMarketTime": 1792094401,
+     "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+     },
+     "regularMarketPrice": {
+      "raw": 342,
+      "fmt": "342.00"
+     },
+     "regularMarketDayHigh": {
+      "raw": 347.85,
+      "fmt": "347.85"
+     },
+     "regularMarketDayLow": {
+      "raw": 341.6,
+      "fmt": "341.60"
+     },
+     "regularMarketVolume": {
+      "raw": 39605715,
+      "fmt": "39.61M",
+      "longFmt": "39,605,715.00"
+     },
+     "averageDailyVolume10Day": {
+      "raw": 36011380,
+      "fmt": "36.01M",
+      "longFmt": "36,011,380"
+     },
+     "averageDailyVolume3Month": {
+      "raw": 44788660,
+      "fmt": "44.79M",
+      "longFmt": "44,788,660"
+     },
+     "regularMarketPreviousClose": {
+      "raw": 342.96,
+      "fmt": "342.96"
+     },
+     "regularMarketSource": "FREE_REALTIME",
+     "regularMarketOpen": {
+      "raw": 346.95,
+      "fmt": "346.95"
+     },
+     "strikePrice": {},
+     "openInterest": {},
+     "fulldayChangePercent": {
+      "raw": 0.0012281095,
+      "fmt": "0.12%"
+     },
+     "fulldayChange": {
+      "raw": 0.42001343,
+      "fmt": "0.42"
+     },
+     "fulldayPrice": {
+      "raw": 342.42,
+      "fmt": "342.42"
+     },
+     "exchange": "NMS",
+     "exchangeName": "NasdaqGS",
+     "exchangeDataDelayedBy": 15,
+     "marketState": "PRE",
+     "quoteType": "EQUITY",
+     "symbol": "AAPL",
+     "underlyingSymbol": null,
+     "shortName": "Apple Inc.",
+     "longName": "Apple Inc.",
+     "currency": "USD",
+     "quoteSourceName": "Nasdaq Real Time Price",
+     "currencySymbol": "$",
+     "fromCurrency": null,
+     "toCurrency": null,
+     "lastMarket": null,
+     "volume24Hr": {},
+     "volumeAllCurrencies": {},
+     "circulatingSupply": {},
+     "marketCap": {
+      "raw": 4991209701376,
+      "fmt": "4.99T",
+      "longFmt": "4,991,209,701,376.00"
+     }
+    },
+    "summaryDetail": {
+     "bid": {
+      "raw": 343.01,
+      "fmt": "343.01"
+     },
+     "ask": {
+      "raw": 347.98,
+      "fmt": "347.98"
+     },
+     "bidSize": {
+      "raw": 400,
+      "fmt": "400",
+      "longFmt": "400"
+     },
+     "askSize": {
+      "raw": 400,
+      "fmt": "400",
+      "longFmt": "400"
+     },
+     "open": {
+      "raw": 346.95,
+      "fmt": "346.95"
+     },
+     "dayLow": {
+      "raw": 341.6,
+      "fmt": "341.60"
+     },
+     "dayHigh": {
+      "raw": 347.85,
+      "fmt": "347.85"
+     },
+     "volume": {
+      "raw": 39605715,
+      "fmt": "39.61M",
+      "longFmt": "39,605,715"
+     },
+     "previousClose": {
+      "raw": 342.96,
+      "fmt": "342.96"
+     },
+     "currency": "USD"
+    }
+   }
+  ],
+  "error": null
+ }
+}

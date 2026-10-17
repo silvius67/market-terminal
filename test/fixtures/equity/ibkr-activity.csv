@@ -1,0 +1,11 @@
+Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"October 15, 2026"
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,USD,AMD,40,1,98.25,3930,165.2,6608,2678,
+Open Positions,Data,Summary,Stocks,USD,BRK B,5,1,412.5,2062.5,498.1,2490.5,428,
+Open Positions,Data,Summary,Stocks,USD,BKNG,2,1,"4,812.30","9,624.6","5,310.00","10,620","995.4",
+Open Positions,Total,,Stocks,USD,,,,,"15,617.1",,"19,718.5","4,101.4",
+Open Positions,Data,Summary,Stocks,GBP,VOD,1000,1,0.7015,701.5,0.9612,961.2,259.7,
+Open Positions,Data,Summary,Equity and Index Options,USD,SPY 21NOV26 600 P,2,100,4.1,820,2.15,430,-390,
+Open Positions,Data,Summary,Crypto,USD,ETH,0.75,1,2410,1807.5,3990,2992.5,1185,
