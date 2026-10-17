@@ -1192,7 +1192,7 @@ const isMain =
 if (isMain) {
   if (process.argv.includes("--help") || process.argv.includes("-h")) {
     console.log(
-      `Market Terminal MCP server ${VERSION}: lets your own Claude use the terminal.\n\nConnect Claude Code (run this once):\n\n  ${bbg.mcpCommand(ROOT)}\n\nThen ask Claude things like "What does the futures market price for the next Fed meeting?"\nOther MCP clients: run "node ${path.join(ROOT, "scripts", "mcp.js")}" over stdio.\nTools: ${Object.keys(TOOLS).join(", ")}.`,
+      `Market Terminal MCP server ${VERSION}: lets your own Claude use the terminal.\n\nConnect Claude Code (run this once, from inside ${ROOT}):\n\n  ${bbg.mcpCommand(ROOT)}\n\nIt works in Claude Code chats started in that folder. Then ask Claude things like "What does the futures market price for the next Fed meeting?"\nOther MCP clients: run "node ${path.join(ROOT, "scripts", "mcp.js")}" over stdio.\nTools: ${Object.keys(TOOLS).join(", ")}.`,
     );
     process.exit(0);
   }

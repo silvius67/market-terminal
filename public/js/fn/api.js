@@ -240,7 +240,7 @@ export default [
       el.append(sect("1. Connect it (once)"));
       el.append(
         html(
-          `<p class="para">Paste this into a terminal on this computer. It needs Claude Code installed.</p>`,
+          `<p class="para">Paste this into a terminal opened in the Market Terminal folder${a?.dir ? ` (<b class="amber">${esc(a.dir)}</b>)` : ""}. It needs Claude Code installed. The connection works only in Claude Code chats started in that folder, not in your other projects.</p>`,
         ),
       );
       el.append(cmd(ctx, a?.mcp || "node scripts/mcp.js --help"));
@@ -251,7 +251,7 @@ export default [
       );
       el.append(sect("2. Ask"));
       el.append(
-        html(`<p class="para">Open Claude Code and try one of these:</p>`),
+        html(`<p class="para">Open Claude Code in the Market Terminal folder and try one of these:</p>`),
       );
       for (const q of [
         "What does the futures market price for the next Fed meeting, and what is the 2s10s spread?",
