@@ -35,13 +35,17 @@ if (!port) {
   const fd = fs.openSync(log, 'a');
   const child = spawn(process.execPath, [path.join(root, 'server.js')], { cwd: root, detached: true, stdio: ['ignore', fd, fd], windowsHide: true, env: process.env });
   child.unref();
+  fs.closeSync(fd); // the server has its own copy
   for (let i = 0; i < 40 && !port; i++) { await new Promise((r) => setTimeout(r, 400)); port = await running(); }
   if (!port) {
     console.error(`Market Terminal didn't start. Last lines of ${log}:\n${fs.readFileSync(log, 'utf8').split('\n').slice(-20).join('\n')}`);
-    process.exit(1);
   }
 }
-const url = `http://localhost:${port}`;
-if (!process.argv.includes('--no-open') && process.env.QT_NO_OPEN !== '1') openBrowser(url);
-console.log(`Market Terminal is running at ${url}\nStop it any time with: node scripts/stop.js`);
-process.exit(0);
+// No process.exit() here: on Windows, exiting while Node is still closing the browser launcher or a
+// fetch connection can crash with "Assertion failed ... async.c". Setting exitCode lets Node finish first.
+if (port) {
+  const url = `http://localhost:${port}`;
+  if (!process.argv.includes('--no-open') && process.env.QT_NO_OPEN !== '1') openBrowser(url);
+  console.log(`Market Terminal is running at ${url}\nStop it any time with: node scripts/stop.js`);
+}
+process.exitCode = port ? 0 : 1;

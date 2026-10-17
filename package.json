@@ -1,6 +1,6 @@
 {
   "name": "market-terminal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A free, local, terminal-style market terminal: function codes, four panels, world markets, news, filings, rates, options and a backtester with quant checks. Public data, your machine.",
   "type": "module",
   "private": true,
